@@ -1,0 +1,17 @@
+.grid_item{
+    border: 1px solid purple;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    color: purple;
+    line-height: 8;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 500px;
+    width: 800px;
+}
