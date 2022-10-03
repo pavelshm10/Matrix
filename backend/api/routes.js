@@ -16,7 +16,7 @@ router.get("/div", (req, res) => {
   res.send(result.toString());
 });
 
-router.get("/minus", (req, res) => {
+router.get("/subtract", (req, res) => {
   const result=parseInt(req.query.num1)-parseInt(req.query.num2)
   res.send(result.toString());
 });
